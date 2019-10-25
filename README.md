@@ -3,11 +3,11 @@ This repository contains files collected and produced while recreating visualiza
 
 ## Workflow Summary:
 1. Collection
-    - Crimeometer SF Crime Data: All crimes committed in SF from 11/5 - 11/11 pulled from [Crimeometer's API](https://www.crimeometer.com/crime-data-api).
+    - Crimeometer SF Crime Data: All crimes committed in SF from 11/5 - 11/11 pulled from [Crimeometer's API](https://www.crimeometer.com/crime-data-api)
 2. Cleaning
-    - Basic cleaning of column names and crime labels via Pandas.
-    - Converted to shapefile to create hexbin shapefile (in QGIS) representing the number of crimes that occurred in each section of SF.
-    - Extracted top 5 crimes and counts in each hexbin (for pop up crime stats window in map); joined data with hexbin shapefile
+    - Converted Crimeometer JSON data to Pandas data frame for basic cleaning
+    - Converted data frame to shapefile to create hexbin shapefile (in QGIS), representing the number of crimes that occurred in each subsection of SF
+    - Extracted top 5 crimes and counts in each hexbin (for pop up crime stats in map); joined data with hexbin shapefile
 3. Visualization
 
     a) Bar Chart:
