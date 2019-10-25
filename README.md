@@ -1,5 +1,5 @@
 # Automated Data Collection &amp; Visualization
-This repository contains files collected and produced while recreating visualizations from this [Hoodline news article](https://hoodline.com/2018/11/the-week-in-sf-crime-reports-overall-complaints-drop-harassment-calls-climb) on weekly crime in San Francisco. My objective was to demonstrate that more effective visualizations could be produced even with Hoodline's automation-centered approach. I've posted a more detailed outline of my thought process [here]().
+This repository contains files collected and produced while recreating visualizations from this [Hoodline news article](https://hoodline.com/2018/11/the-week-in-sf-crime-reports-overall-complaints-drop-harassment-calls-climb) on weekly crime in San Francisco. My objective was to demonstrate that more effective visualizations could be produced even with Hoodline's automation-centered approach. I've posted a more detailed outline of my thought process [here](https://hassenmorad.github.io/hoodline.html).
 
 ## Workflow Summary:
 1. Collection
