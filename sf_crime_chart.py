@@ -40,4 +40,5 @@ for city in cities:
         text='Count')
 
     chart = bars + text
-    chart.save(city + '_crime_counts.png', scale_factor=3)
+    image_file_name = '_top_weekly_crimes_' + sf_crime.date.iloc[0][-5:] + '.png'
+    chart.save(city + image_file_name, scale_factor=3)
