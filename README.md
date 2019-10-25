@@ -11,7 +11,7 @@ This repository contains files collected and produced while recreating visualiza
     
     b) Map:
       - Created hexbin shapefile in QGIS (sf_hexbins.shp), representing all hex areas in SF where crimes were recorded
-      - Extracted top 5 crimes and counts in each hexbin (Mapping_Crime_Stats.ipynb) (for pop up crime stats in map); joined data with hexbin shapefile to link each hexbin w/ the number of crimes that occurred in it (hex_offenses.shp)
+      - Extracted top 5 crimes and counts in each hexbin (outlined in Mapping_Crime_Stats.ipynb) (for pop up crime stats in map); joined data with hexbin shapefile to link each hexbin w/ the number of crimes that occurred in it (hex_offenses.shp)
 3. Visualization
 
     a) Bar Chart:
