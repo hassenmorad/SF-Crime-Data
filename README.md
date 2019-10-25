@@ -22,4 +22,4 @@ This repository contains files collected and produced while recreating visualiza
       - Created html file with Mapbox GL JS code enabling interactivity (zoom & pop up window with crime stats upon hover)
 
 ### Notes:
-- The current workflow is partially automated. I proceeded with this combination of automated & manual tasks (e.g. QGIS & Mapbox Studio) to create an initial framework. This process can certainly be almost entirely automated by scripting QGIS data manipulation via PyQGIS and importing shapefiles directly into a Mapbox GL JS script (as opposed to using Studio).
+- The current workflow is partially automated. I proceeded with this combination of automated & manual steps (e.g. QGIS & Mapbox Studio) to create an initial framework. This process can certainly be almost entirely automated by scripting QGIS data manipulation via PyQGIS and importing shapefiles directly into a Mapbox GL JS script (as opposed to using Studio).
