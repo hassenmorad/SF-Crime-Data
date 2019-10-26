@@ -12,14 +12,16 @@ def chart_theme():
             "axisY": {
                 "labelFont": font,
                 "labelFontSize": 13,
-                "labelLimit":200,
+                "labelLimit": 200,
+		"labelPadding": 210,
+		"labelAlign": "left",
                 "ticks": False, 
                 "titleFont": font,
                 "titleFontSize": 13,
                 "titleAlign":"right",
                 "titleAngle": 0, 
                 "titleY": -10, 
-                "titleX": 35,
+                "titleX": 25
             },
             "view":{"strokeOpacity": 0,
             },
