@@ -23,21 +23,21 @@ for city in cities:
     title = city + ' Crime (' + week_beg + ' - ' + week_end + ')'
 
     base = alt.Chart(crime_counts_df, title=title).encode(
-    x=alt.X('Count', axis=None),
-    y=alt.Y('Crime', title='Top crimes recorded by ' + city + ' PD', sort=list(crime_counts_df.Crime.values)))
+        x=alt.X('Count', axis=None),
+        y=alt.Y('Crime', title='Top crimes recorded by ' + city + ' PD', sort=list(crime_counts_df.Crime.values)))
 
     bars = base.mark_bar(size=22).encode(color=alt.condition(
         alt.datum.Count == max_val,
         alt.value('#e17700'),
         alt.value('#00648e')))
 
-    text = base.mark_text(
+    text = alt.Chart(crime_counts_df).mark_text(
         color='white',
-        align='right',
+        align='left',
         size=12,
-        dx=-3
+        x=3
         ).encode(
-        text='Count')
+        alt.Text('Count'), alt.Y('Crime', sort=list(crime_counts_df.Crime.values)))
 
     chart = bars + text
     image_file_name = '_top_weekly_crimes_' + sf_crime.date.iloc[0][-5:] + '.png'
