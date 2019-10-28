@@ -21,7 +21,8 @@ def chart_theme():
                 "titleAlign":"right",
                 "titleAngle": 0, 
                 "titleY": -10, 
-                "titleX": 25
+                "titleX": 25,
+		"domainWidth": 0,
             },
             "view":{"strokeOpacity": 0,
             },
